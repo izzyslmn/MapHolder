@@ -1,0 +1,2304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        
+        var poly_line_canada = L.polyline(
+            [[56.1304, -106.3468], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_australia = L.polyline(
+            [[-25.2744, 133.7751], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_ireland = L.polyline(
+            [[53.1424, -7.6921], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_usa = L.polyline(
+            [[37.0902, -95.7129], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+
+        var marker_linlithgow_palace = L.marker(
+            [55.9763, -3.6035],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_linlithgow_palace = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_linlithgow_palace.setIcon(icon_linlithgow_palace);
+        
+        var popup_linlithgow_palace = L.popup({"maxWidth": "100%"});
+        var html_linlithgow_palace = $(`<div style="width: 100.0%; height: 100.0%;"><b>Linlithgow Palace</b><br>Birthplace of Mary, Queen of Scots, reflecting Scotland’s royal heritage.</div>`)[0];
+        popup_linlithgow_palace.setContent(html_linlithgow_palace);
+        marker_linlithgow_palace.bindPopup(popup_linlithgow_palace);
+    
+        var marker_fotheringhay_castle = L.marker(
+            [52.524, -0.4377],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_fotheringhay_castle = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_fotheringhay_castle.setIcon(icon_fotheringhay_castle);
+        
+        var popup_fotheringhay_castle = L.popup({"maxWidth": "100%"});
+        var html_fotheringhay_castle = $(`<div style="width: 100.0%; height: 100.0%;"><b>Fotheringhay Castle</b><br>The site of Mary, Queen of Scots’ execution in 1587.</div>`)[0];
+        popup_fotheringhay_castle.setContent(html_fotheringhay_castle);
+        marker_fotheringhay_castle.bindPopup(popup_fotheringhay_castle);
+    
+        var marker_scott_monument = L.marker(
+            [55.952, -3.1938],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_scott_monument = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_scott_monument.setIcon(icon_scott_monument);
+        
+        var popup_scott_monument = L.popup({"maxWidth": "100%"});
+        var html_scott_monument = $(`<div style="width: 100.0%; height: 100.0%;"><b>Scott Monument</b><br>A landmark dedicated to Sir Walter Scott, symbolizing Edinburgh’s literary history.</div>`)[0];
+        popup_scott_monument.setContent(html_scott_monument);
+        marker_scott_monument.bindPopup(popup_scott_monument);
+    
+        var marker_george_street = L.marker(
+            [55.9526, -3.2007],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_george_street = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_george_street.setIcon(icon_george_street);
+        
+        var popup_george_street = L.popup({"maxWidth": "100%"});
+        var html_george_street = $(`<div style="width: 100.0%; height: 100.0%;"><b>George Street</b><br>A central street in New Town, showcasing Georgian architecture.</div>`)[0];
+        popup_george_street.setContent(html_george_street);
+        marker_george_street.bindPopup(popup_george_street);
+    
+        var marker_silicon_glen = L.marker(
+            [56.0, -3.5],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_silicon_glen = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_silicon_glen.setIcon(icon_silicon_glen);
+        
+        var popup_silicon_glen = L.popup({"maxWidth": "100%"});
+        var html_silicon_glen = $(`<div style="width: 100.0%; height: 100.0%;"><b>Silicon Glen</b><br>Scotland’s tech hub, driving innovation in fields like AI and informatics.</div>`)[0];
+        popup_silicon_glen.setContent(html_silicon_glen);
+        marker_silicon_glen.bindPopup(popup_silicon_glen);
+    
+        var marker_firth_of_forth = L.marker(
+            [56.0, -3.0],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_firth_of_forth = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_firth_of_forth.setIcon(icon_firth_of_forth);
+        
+        var popup_firth_of_forth = L.popup({"maxWidth": "100%"});
+        var html_firth_of_forth = $(`<div style="width: 100.0%; height: 100.0%;"><b>Firth of Forth</b><br>A natural estuary north of Edinburgh, offering scenic views.</div>`)[0];
+        popup_firth_of_forth.setContent(html_firth_of_forth);
+        marker_firth_of_forth.bindPopup(popup_firth_of_forth);
+    
+        var marker_edinburgh_international_festival_venues = L.marker(
+            [55.9493, -3.1908],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_edinburgh_international_festival_venues = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_edinburgh_international_festival_venues.setIcon(icon_edinburgh_international_festival_venues);
+        
+        var popup_edinburgh_international_festival_venues = L.popup({"maxWidth": "100%"});
+        var html_edinburgh_international_festival_venues = $(`<div style="width: 100.0%; height: 100.0%;"><b>Edinburgh International Festival Venues</b><br>Various venues hosting world-renowned cultural events.</div>`)[0];
+        popup_edinburgh_international_festival_venues.setContent(html_edinburgh_international_festival_venues);
+        marker_edinburgh_international_festival_venues.bindPopup(popup_edinburgh_international_festival_venues);
+    
+</script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js">
+        var poly_line_canada = L.polyline(
+            [[56.1304, -106.3468], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_australia = L.polyline(
+            [[-25.2744, 133.7751], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_ireland = L.polyline(
+            [[53.1424, -7.6921], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_usa = L.polyline(
+            [[37.0902, -95.7129], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+
+        var marker_linlithgow_palace = L.marker(
+            [55.9763, -3.6035],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_linlithgow_palace = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_linlithgow_palace.setIcon(icon_linlithgow_palace);
+        
+        var popup_linlithgow_palace = L.popup({"maxWidth": "100%"});
+        var html_linlithgow_palace = $(`<div style="width: 100.0%; height: 100.0%;"><b>Linlithgow Palace</b><br>Birthplace of Mary, Queen of Scots, reflecting Scotland’s royal heritage.</div>`)[0];
+        popup_linlithgow_palace.setContent(html_linlithgow_palace);
+        marker_linlithgow_palace.bindPopup(popup_linlithgow_palace);
+    
+        var marker_fotheringhay_castle = L.marker(
+            [52.524, -0.4377],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_fotheringhay_castle = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_fotheringhay_castle.setIcon(icon_fotheringhay_castle);
+        
+        var popup_fotheringhay_castle = L.popup({"maxWidth": "100%"});
+        var html_fotheringhay_castle = $(`<div style="width: 100.0%; height: 100.0%;"><b>Fotheringhay Castle</b><br>The site of Mary, Queen of Scots’ execution in 1587.</div>`)[0];
+        popup_fotheringhay_castle.setContent(html_fotheringhay_castle);
+        marker_fotheringhay_castle.bindPopup(popup_fotheringhay_castle);
+    
+        var marker_scott_monument = L.marker(
+            [55.952, -3.1938],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_scott_monument = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_scott_monument.setIcon(icon_scott_monument);
+        
+        var popup_scott_monument = L.popup({"maxWidth": "100%"});
+        var html_scott_monument = $(`<div style="width: 100.0%; height: 100.0%;"><b>Scott Monument</b><br>A landmark dedicated to Sir Walter Scott, symbolizing Edinburgh’s literary history.</div>`)[0];
+        popup_scott_monument.setContent(html_scott_monument);
+        marker_scott_monument.bindPopup(popup_scott_monument);
+    
+        var marker_george_street = L.marker(
+            [55.9526, -3.2007],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_george_street = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_george_street.setIcon(icon_george_street);
+        
+        var popup_george_street = L.popup({"maxWidth": "100%"});
+        var html_george_street = $(`<div style="width: 100.0%; height: 100.0%;"><b>George Street</b><br>A central street in New Town, showcasing Georgian architecture.</div>`)[0];
+        popup_george_street.setContent(html_george_street);
+        marker_george_street.bindPopup(popup_george_street);
+    
+        var marker_silicon_glen = L.marker(
+            [56.0, -3.5],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_silicon_glen = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_silicon_glen.setIcon(icon_silicon_glen);
+        
+        var popup_silicon_glen = L.popup({"maxWidth": "100%"});
+        var html_silicon_glen = $(`<div style="width: 100.0%; height: 100.0%;"><b>Silicon Glen</b><br>Scotland’s tech hub, driving innovation in fields like AI and informatics.</div>`)[0];
+        popup_silicon_glen.setContent(html_silicon_glen);
+        marker_silicon_glen.bindPopup(popup_silicon_glen);
+    
+        var marker_firth_of_forth = L.marker(
+            [56.0, -3.0],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_firth_of_forth = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_firth_of_forth.setIcon(icon_firth_of_forth);
+        
+        var popup_firth_of_forth = L.popup({"maxWidth": "100%"});
+        var html_firth_of_forth = $(`<div style="width: 100.0%; height: 100.0%;"><b>Firth of Forth</b><br>A natural estuary north of Edinburgh, offering scenic views.</div>`)[0];
+        popup_firth_of_forth.setContent(html_firth_of_forth);
+        marker_firth_of_forth.bindPopup(popup_firth_of_forth);
+    
+        var marker_edinburgh_international_festival_venues = L.marker(
+            [55.9493, -3.1908],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_edinburgh_international_festival_venues = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_edinburgh_international_festival_venues.setIcon(icon_edinburgh_international_festival_venues);
+        
+        var popup_edinburgh_international_festival_venues = L.popup({"maxWidth": "100%"});
+        var html_edinburgh_international_festival_venues = $(`<div style="width: 100.0%; height: 100.0%;"><b>Edinburgh International Festival Venues</b><br>Various venues hosting world-renowned cultural events.</div>`)[0];
+        popup_edinburgh_international_festival_venues.setContent(html_edinburgh_international_festival_venues);
+        marker_edinburgh_international_festival_venues.bindPopup(popup_edinburgh_international_festival_venues);
+    
+</script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js">
+        var poly_line_canada = L.polyline(
+            [[56.1304, -106.3468], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_australia = L.polyline(
+            [[-25.2744, 133.7751], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_ireland = L.polyline(
+            [[53.1424, -7.6921], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_usa = L.polyline(
+            [[37.0902, -95.7129], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+
+        var marker_linlithgow_palace = L.marker(
+            [55.9763, -3.6035],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_linlithgow_palace = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_linlithgow_palace.setIcon(icon_linlithgow_palace);
+        
+        var popup_linlithgow_palace = L.popup({"maxWidth": "100%"});
+        var html_linlithgow_palace = $(`<div style="width: 100.0%; height: 100.0%;"><b>Linlithgow Palace</b><br>Birthplace of Mary, Queen of Scots, reflecting Scotland’s royal heritage.</div>`)[0];
+        popup_linlithgow_palace.setContent(html_linlithgow_palace);
+        marker_linlithgow_palace.bindPopup(popup_linlithgow_palace);
+    
+        var marker_fotheringhay_castle = L.marker(
+            [52.524, -0.4377],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_fotheringhay_castle = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_fotheringhay_castle.setIcon(icon_fotheringhay_castle);
+        
+        var popup_fotheringhay_castle = L.popup({"maxWidth": "100%"});
+        var html_fotheringhay_castle = $(`<div style="width: 100.0%; height: 100.0%;"><b>Fotheringhay Castle</b><br>The site of Mary, Queen of Scots’ execution in 1587.</div>`)[0];
+        popup_fotheringhay_castle.setContent(html_fotheringhay_castle);
+        marker_fotheringhay_castle.bindPopup(popup_fotheringhay_castle);
+    
+        var marker_scott_monument = L.marker(
+            [55.952, -3.1938],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_scott_monument = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_scott_monument.setIcon(icon_scott_monument);
+        
+        var popup_scott_monument = L.popup({"maxWidth": "100%"});
+        var html_scott_monument = $(`<div style="width: 100.0%; height: 100.0%;"><b>Scott Monument</b><br>A landmark dedicated to Sir Walter Scott, symbolizing Edinburgh’s literary history.</div>`)[0];
+        popup_scott_monument.setContent(html_scott_monument);
+        marker_scott_monument.bindPopup(popup_scott_monument);
+    
+        var marker_george_street = L.marker(
+            [55.9526, -3.2007],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_george_street = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_george_street.setIcon(icon_george_street);
+        
+        var popup_george_street = L.popup({"maxWidth": "100%"});
+        var html_george_street = $(`<div style="width: 100.0%; height: 100.0%;"><b>George Street</b><br>A central street in New Town, showcasing Georgian architecture.</div>`)[0];
+        popup_george_street.setContent(html_george_street);
+        marker_george_street.bindPopup(popup_george_street);
+    
+        var marker_silicon_glen = L.marker(
+            [56.0, -3.5],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_silicon_glen = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_silicon_glen.setIcon(icon_silicon_glen);
+        
+        var popup_silicon_glen = L.popup({"maxWidth": "100%"});
+        var html_silicon_glen = $(`<div style="width: 100.0%; height: 100.0%;"><b>Silicon Glen</b><br>Scotland’s tech hub, driving innovation in fields like AI and informatics.</div>`)[0];
+        popup_silicon_glen.setContent(html_silicon_glen);
+        marker_silicon_glen.bindPopup(popup_silicon_glen);
+    
+        var marker_firth_of_forth = L.marker(
+            [56.0, -3.0],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_firth_of_forth = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_firth_of_forth.setIcon(icon_firth_of_forth);
+        
+        var popup_firth_of_forth = L.popup({"maxWidth": "100%"});
+        var html_firth_of_forth = $(`<div style="width: 100.0%; height: 100.0%;"><b>Firth of Forth</b><br>A natural estuary north of Edinburgh, offering scenic views.</div>`)[0];
+        popup_firth_of_forth.setContent(html_firth_of_forth);
+        marker_firth_of_forth.bindPopup(popup_firth_of_forth);
+    
+        var marker_edinburgh_international_festival_venues = L.marker(
+            [55.9493, -3.1908],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_edinburgh_international_festival_venues = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_edinburgh_international_festival_venues.setIcon(icon_edinburgh_international_festival_venues);
+        
+        var popup_edinburgh_international_festival_venues = L.popup({"maxWidth": "100%"});
+        var html_edinburgh_international_festival_venues = $(`<div style="width: 100.0%; height: 100.0%;"><b>Edinburgh International Festival Venues</b><br>Various venues hosting world-renowned cultural events.</div>`)[0];
+        popup_edinburgh_international_festival_venues.setContent(html_edinburgh_international_festival_venues);
+        marker_edinburgh_international_festival_venues.bindPopup(popup_edinburgh_international_festival_venues);
+    
+</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js">
+        var poly_line_canada = L.polyline(
+            [[56.1304, -106.3468], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_australia = L.polyline(
+            [[-25.2744, 133.7751], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_ireland = L.polyline(
+            [[53.1424, -7.6921], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_usa = L.polyline(
+            [[37.0902, -95.7129], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+
+        var marker_linlithgow_palace = L.marker(
+            [55.9763, -3.6035],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_linlithgow_palace = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_linlithgow_palace.setIcon(icon_linlithgow_palace);
+        
+        var popup_linlithgow_palace = L.popup({"maxWidth": "100%"});
+        var html_linlithgow_palace = $(`<div style="width: 100.0%; height: 100.0%;"><b>Linlithgow Palace</b><br>Birthplace of Mary, Queen of Scots, reflecting Scotland’s royal heritage.</div>`)[0];
+        popup_linlithgow_palace.setContent(html_linlithgow_palace);
+        marker_linlithgow_palace.bindPopup(popup_linlithgow_palace);
+    
+        var marker_fotheringhay_castle = L.marker(
+            [52.524, -0.4377],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_fotheringhay_castle = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_fotheringhay_castle.setIcon(icon_fotheringhay_castle);
+        
+        var popup_fotheringhay_castle = L.popup({"maxWidth": "100%"});
+        var html_fotheringhay_castle = $(`<div style="width: 100.0%; height: 100.0%;"><b>Fotheringhay Castle</b><br>The site of Mary, Queen of Scots’ execution in 1587.</div>`)[0];
+        popup_fotheringhay_castle.setContent(html_fotheringhay_castle);
+        marker_fotheringhay_castle.bindPopup(popup_fotheringhay_castle);
+    
+        var marker_scott_monument = L.marker(
+            [55.952, -3.1938],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_scott_monument = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_scott_monument.setIcon(icon_scott_monument);
+        
+        var popup_scott_monument = L.popup({"maxWidth": "100%"});
+        var html_scott_monument = $(`<div style="width: 100.0%; height: 100.0%;"><b>Scott Monument</b><br>A landmark dedicated to Sir Walter Scott, symbolizing Edinburgh’s literary history.</div>`)[0];
+        popup_scott_monument.setContent(html_scott_monument);
+        marker_scott_monument.bindPopup(popup_scott_monument);
+    
+        var marker_george_street = L.marker(
+            [55.9526, -3.2007],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_george_street = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_george_street.setIcon(icon_george_street);
+        
+        var popup_george_street = L.popup({"maxWidth": "100%"});
+        var html_george_street = $(`<div style="width: 100.0%; height: 100.0%;"><b>George Street</b><br>A central street in New Town, showcasing Georgian architecture.</div>`)[0];
+        popup_george_street.setContent(html_george_street);
+        marker_george_street.bindPopup(popup_george_street);
+    
+        var marker_silicon_glen = L.marker(
+            [56.0, -3.5],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_silicon_glen = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_silicon_glen.setIcon(icon_silicon_glen);
+        
+        var popup_silicon_glen = L.popup({"maxWidth": "100%"});
+        var html_silicon_glen = $(`<div style="width: 100.0%; height: 100.0%;"><b>Silicon Glen</b><br>Scotland’s tech hub, driving innovation in fields like AI and informatics.</div>`)[0];
+        popup_silicon_glen.setContent(html_silicon_glen);
+        marker_silicon_glen.bindPopup(popup_silicon_glen);
+    
+        var marker_firth_of_forth = L.marker(
+            [56.0, -3.0],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_firth_of_forth = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_firth_of_forth.setIcon(icon_firth_of_forth);
+        
+        var popup_firth_of_forth = L.popup({"maxWidth": "100%"});
+        var html_firth_of_forth = $(`<div style="width: 100.0%; height: 100.0%;"><b>Firth of Forth</b><br>A natural estuary north of Edinburgh, offering scenic views.</div>`)[0];
+        popup_firth_of_forth.setContent(html_firth_of_forth);
+        marker_firth_of_forth.bindPopup(popup_firth_of_forth);
+    
+        var marker_edinburgh_international_festival_venues = L.marker(
+            [55.9493, -3.1908],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_edinburgh_international_festival_venues = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_edinburgh_international_festival_venues.setIcon(icon_edinburgh_international_festival_venues);
+        
+        var popup_edinburgh_international_festival_venues = L.popup({"maxWidth": "100%"});
+        var html_edinburgh_international_festival_venues = $(`<div style="width: 100.0%; height: 100.0%;"><b>Edinburgh International Festival Venues</b><br>Various venues hosting world-renowned cultural events.</div>`)[0];
+        popup_edinburgh_international_festival_venues.setContent(html_edinburgh_international_festival_venues);
+        marker_edinburgh_international_festival_venues.bindPopup(popup_edinburgh_international_festival_venues);
+    
+</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js">
+        var poly_line_canada = L.polyline(
+            [[56.1304, -106.3468], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_australia = L.polyline(
+            [[-25.2744, 133.7751], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_ireland = L.polyline(
+            [[53.1424, -7.6921], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_usa = L.polyline(
+            [[37.0902, -95.7129], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+
+        var marker_linlithgow_palace = L.marker(
+            [55.9763, -3.6035],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_linlithgow_palace = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_linlithgow_palace.setIcon(icon_linlithgow_palace);
+        
+        var popup_linlithgow_palace = L.popup({"maxWidth": "100%"});
+        var html_linlithgow_palace = $(`<div style="width: 100.0%; height: 100.0%;"><b>Linlithgow Palace</b><br>Birthplace of Mary, Queen of Scots, reflecting Scotland’s royal heritage.</div>`)[0];
+        popup_linlithgow_palace.setContent(html_linlithgow_palace);
+        marker_linlithgow_palace.bindPopup(popup_linlithgow_palace);
+    
+        var marker_fotheringhay_castle = L.marker(
+            [52.524, -0.4377],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_fotheringhay_castle = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_fotheringhay_castle.setIcon(icon_fotheringhay_castle);
+        
+        var popup_fotheringhay_castle = L.popup({"maxWidth": "100%"});
+        var html_fotheringhay_castle = $(`<div style="width: 100.0%; height: 100.0%;"><b>Fotheringhay Castle</b><br>The site of Mary, Queen of Scots’ execution in 1587.</div>`)[0];
+        popup_fotheringhay_castle.setContent(html_fotheringhay_castle);
+        marker_fotheringhay_castle.bindPopup(popup_fotheringhay_castle);
+    
+        var marker_scott_monument = L.marker(
+            [55.952, -3.1938],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_scott_monument = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_scott_monument.setIcon(icon_scott_monument);
+        
+        var popup_scott_monument = L.popup({"maxWidth": "100%"});
+        var html_scott_monument = $(`<div style="width: 100.0%; height: 100.0%;"><b>Scott Monument</b><br>A landmark dedicated to Sir Walter Scott, symbolizing Edinburgh’s literary history.</div>`)[0];
+        popup_scott_monument.setContent(html_scott_monument);
+        marker_scott_monument.bindPopup(popup_scott_monument);
+    
+        var marker_george_street = L.marker(
+            [55.9526, -3.2007],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_george_street = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_george_street.setIcon(icon_george_street);
+        
+        var popup_george_street = L.popup({"maxWidth": "100%"});
+        var html_george_street = $(`<div style="width: 100.0%; height: 100.0%;"><b>George Street</b><br>A central street in New Town, showcasing Georgian architecture.</div>`)[0];
+        popup_george_street.setContent(html_george_street);
+        marker_george_street.bindPopup(popup_george_street);
+    
+        var marker_silicon_glen = L.marker(
+            [56.0, -3.5],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_silicon_glen = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_silicon_glen.setIcon(icon_silicon_glen);
+        
+        var popup_silicon_glen = L.popup({"maxWidth": "100%"});
+        var html_silicon_glen = $(`<div style="width: 100.0%; height: 100.0%;"><b>Silicon Glen</b><br>Scotland’s tech hub, driving innovation in fields like AI and informatics.</div>`)[0];
+        popup_silicon_glen.setContent(html_silicon_glen);
+        marker_silicon_glen.bindPopup(popup_silicon_glen);
+    
+        var marker_firth_of_forth = L.marker(
+            [56.0, -3.0],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_firth_of_forth = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_firth_of_forth.setIcon(icon_firth_of_forth);
+        
+        var popup_firth_of_forth = L.popup({"maxWidth": "100%"});
+        var html_firth_of_forth = $(`<div style="width: 100.0%; height: 100.0%;"><b>Firth of Forth</b><br>A natural estuary north of Edinburgh, offering scenic views.</div>`)[0];
+        popup_firth_of_forth.setContent(html_firth_of_forth);
+        marker_firth_of_forth.bindPopup(popup_firth_of_forth);
+    
+        var marker_edinburgh_international_festival_venues = L.marker(
+            [55.9493, -3.1908],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_edinburgh_international_festival_venues = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_edinburgh_international_festival_venues.setIcon(icon_edinburgh_international_festival_venues);
+        
+        var popup_edinburgh_international_festival_venues = L.popup({"maxWidth": "100%"});
+        var html_edinburgh_international_festival_venues = $(`<div style="width: 100.0%; height: 100.0%;"><b>Edinburgh International Festival Venues</b><br>Various venues hosting world-renowned cultural events.</div>`)[0];
+        popup_edinburgh_international_festival_venues.setContent(html_edinburgh_international_festival_venues);
+        marker_edinburgh_international_festival_venues.bindPopup(popup_edinburgh_international_festival_venues);
+    
+</script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3cf59c1732a900f1967afa1f2ba9de1d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3cf59c1732a900f1967afa1f2ba9de1d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3cf59c1732a900f1967afa1f2ba9de1d = L.map(
+                "map_3cf59c1732a900f1967afa1f2ba9de1d",
+                {
+                    center: [55.9533, -3.1883],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5c2febcf04e4901b4aa437f1bf3fdc86 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var marker_c1dbbd90fe9581f036c7c56b5f539e39 = L.marker(
+                [55.9486, -3.1999],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_4f40dfff099096944aa98d0ba058ce8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c1dbbd90fe9581f036c7c56b5f539e39.setIcon(icon_4f40dfff099096944aa98d0ba058ce8d);
+        
+    
+        var popup_279cc06412a9e221d0610321033431d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21a327d960137f061004ca4c126efd48 = $(`<div id="html_21a327d960137f061004ca4c126efd48" style="width: 100.0%; height: 100.0%;"><b>Edinburgh Castle</b><br>One of Scotland's most important historical sites, Edinburgh Castle represents the history and culture of Scotland.</div>`)[0];
+            popup_279cc06412a9e221d0610321033431d7.setContent(html_21a327d960137f061004ca4c126efd48);
+        
+
+        marker_c1dbbd90fe9581f036c7c56b5f539e39.bindPopup(popup_279cc06412a9e221d0610321033431d7)
+        ;
+
+        
+    
+    
+            var marker_4d5f7f139ba1cb7135c07428b148e5a5 = L.marker(
+                [55.9473, -3.1891],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_ed8cff8c70ced401ede0c339bcef2c61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4d5f7f139ba1cb7135c07428b148e5a5.setIcon(icon_ed8cff8c70ced401ede0c339bcef2c61);
+        
+    
+        var popup_9c7598e74f25858dffdb6bc6950cd1ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79a9d7577207c67f359c84bdf9d195de = $(`<div id="html_79a9d7577207c67f359c84bdf9d195de" style="width: 100.0%; height: 100.0%;"><b>National Museum of Scotland</b><br>It displays Scotland's history, culture, art and technology. The museum houses a large number of exhibits related to Scotland's development and Edinburgh's history.</div>`)[0];
+            popup_9c7598e74f25858dffdb6bc6950cd1ee.setContent(html_79a9d7577207c67f359c84bdf9d195de);
+        
+
+        marker_4d5f7f139ba1cb7135c07428b148e5a5.bindPopup(popup_9c7598e74f25858dffdb6bc6950cd1ee)
+        ;
+
+        
+    
+    
+            var marker_10741ed07ce318326bb0a91a4160cd79 = L.marker(
+                [55.9524, -3.1725],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_0157cac795f7aede21792e5a7a5996f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_10741ed07ce318326bb0a91a4160cd79.setIcon(icon_0157cac795f7aede21792e5a7a5996f7);
+        
+    
+        var popup_27093aaa7a246c4145a84c4f91cb5caf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d4586635ea812cf11e24e646db47b11 = $(`<div id="html_1d4586635ea812cf11e24e646db47b11" style="width: 100.0%; height: 100.0%;"><b>Palace of Holyroodhouse</b><br>Holyrood Palace is the official residence of the Queen of Scotland and an important symbol of Scottish history and the royal family.</div>`)[0];
+            popup_27093aaa7a246c4145a84c4f91cb5caf.setContent(html_1d4586635ea812cf11e24e646db47b11);
+        
+
+        marker_10741ed07ce318326bb0a91a4160cd79.bindPopup(popup_27093aaa7a246c4145a84c4f91cb5caf)
+        ;
+
+        
+    
+    
+            var marker_d4ee2009ccd71dc27f2672fc4804212d = L.marker(
+                [55.9525, -3.1744],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_3d8104cbcf1c8ca9329cbbb7a62a431a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d4ee2009ccd71dc27f2672fc4804212d.setIcon(icon_3d8104cbcf1c8ca9329cbbb7a62a431a);
+        
+    
+        var popup_b819b4bf17ad6ef3cfe880154a61fa1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3839e39b9e97718ecfdaa4a407ed6cb4 = $(`<div id="html_3839e39b9e97718ecfdaa4a407ed6cb4" style="width: 100.0%; height: 100.0%;"><b>Scottish Parliament</b><br>The Scottish Parliament is located in Edinburgh and is the direct link between Edinburgh and Scottish politics.</div>`)[0];
+            popup_b819b4bf17ad6ef3cfe880154a61fa1b.setContent(html_3839e39b9e97718ecfdaa4a407ed6cb4);
+        
+
+        marker_d4ee2009ccd71dc27f2672fc4804212d.bindPopup(popup_b819b4bf17ad6ef3cfe880154a61fa1b)
+        ;
+
+        
+    
+    
+            var marker_3737bb0ba4f2ddfcfc58fae7c8d4073f = L.marker(
+                [55.9445, -3.1615],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_925647457fa1ce7f26593057c9461fb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3737bb0ba4f2ddfcfc58fae7c8d4073f.setIcon(icon_925647457fa1ce7f26593057c9461fb7);
+        
+    
+        var popup_289887fe181a6b7c577853f502dd8489 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9330cdb1b4ddb5e65a69a9e420ec2550 = $(`<div id="html_9330cdb1b4ddb5e65a69a9e420ec2550" style="width: 100.0%; height: 100.0%;"><b>Arthur's Seat</b><br>It is not only a natural landmark of Edinburgh, but also a combination of Scottish history and natural landscape.</div>`)[0];
+            popup_289887fe181a6b7c577853f502dd8489.setContent(html_9330cdb1b4ddb5e65a69a9e420ec2550);
+        
+
+        marker_3737bb0ba4f2ddfcfc58fae7c8d4073f.bindPopup(popup_289887fe181a6b7c577853f502dd8489)
+        ;
+
+        
+    
+    
+            var marker_25f454186c17c9271c50362e6022cdba = L.marker(
+                [55.9493, -3.1903],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_a79709a3985b868512eec1c050dc00ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_25f454186c17c9271c50362e6022cdba.setIcon(icon_a79709a3985b868512eec1c050dc00ec);
+        
+    
+        var popup_a4b753bd3237e569b8aff10142901d18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5e50d3c2e4aa90c7ea3b67ca80f2177 = $(`<div id="html_a5e50d3c2e4aa90c7ea3b67ca80f2177" style="width: 100.0%; height: 100.0%;"><b>St Giles' Cathedral</b><br>St Giles' Cathedral is located in the heart of the Royal Mile and represents an important landmark in Scottish religion and history.</div>`)[0];
+            popup_a4b753bd3237e569b8aff10142901d18.setContent(html_a5e50d3c2e4aa90c7ea3b67ca80f2177);
+        
+
+        marker_25f454186c17c9271c50362e6022cdba.bindPopup(popup_a4b753bd3237e569b8aff10142901d18)
+        ;
+
+        
+    
+    
+            var marker_44eb92ac58e01ca952ad1f16f4e4ac34 = L.marker(
+                [55.9443, -3.1885],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_247e7c20f83f5a410347504781417407 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_44eb92ac58e01ca952ad1f16f4e4ac34.setIcon(icon_247e7c20f83f5a410347504781417407);
+        
+    
+        var popup_0411376072f9defc0b486f80fd569b0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14331ef61a3b3313efc673b2b0a49feb = $(`<div id="html_14331ef61a3b3313efc673b2b0a49feb" style="width: 100.0%; height: 100.0%;"><b>University of Edinburgh</b><br>The University of Edinburgh is one of the oldest and most famous universities in Scotland.</div>`)[0];
+            popup_0411376072f9defc0b486f80fd569b0a.setContent(html_14331ef61a3b3313efc673b2b0a49feb);
+        
+
+        marker_44eb92ac58e01ca952ad1f16f4e4ac34.bindPopup(popup_0411376072f9defc0b486f80fd569b0a)
+        ;
+
+        
+    
+    
+            var marker_24762c7ef02bcf228405bd817349ebbf = L.marker(
+                [55.9493, -3.1903],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_ceffe0bf2ebfa49ebc0106e0e66d62a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_24762c7ef02bcf228405bd817349ebbf.setIcon(icon_ceffe0bf2ebfa49ebc0106e0e66d62a2);
+        
+    
+        var popup_ccab9289bc6fe7dcf832034ec54b164d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8aa6294469443265ebe173d4e3aff91 = $(`<div id="html_b8aa6294469443265ebe173d4e3aff91" style="width: 100.0%; height: 100.0%;"><b>Fringe 2024: Yes-Ya-Yebo! - South Africa</b><br>Part of the Edinburgh Fringe 2024, showcasing South African culture.</div>`)[0];
+            popup_ccab9289bc6fe7dcf832034ec54b164d.setContent(html_b8aa6294469443265ebe173d4e3aff91);
+        
+
+        marker_24762c7ef02bcf228405bd817349ebbf.bindPopup(popup_ccab9289bc6fe7dcf832034ec54b164d)
+        ;
+
+        
+    
+    
+            var marker_dfc4343c757e3e6a178ffb3cff0c207a = L.marker(
+                [55.9506, -3.1875],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_4749d457fac8ae7283ca5b9eaa0c0811 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_dfc4343c757e3e6a178ffb3cff0c207a.setIcon(icon_4749d457fac8ae7283ca5b9eaa0c0811);
+        
+    
+        var popup_6326d4ad38a89ef378722bd5c7c96fe8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3b6456bd99782676e654c63975bc7a1 = $(`<div id="html_f3b6456bd99782676e654c63975bc7a1" style="width: 100.0%; height: 100.0%;"><b>Fringe 2024: Youth of Dance - China</b><br>Chinese dance performance as part of the Edinburgh Fringe 2024.</div>`)[0];
+            popup_6326d4ad38a89ef378722bd5c7c96fe8.setContent(html_f3b6456bd99782676e654c63975bc7a1);
+        
+
+        marker_dfc4343c757e3e6a178ffb3cff0c207a.bindPopup(popup_6326d4ad38a89ef378722bd5c7c96fe8)
+        ;
+
+        
+    
+    
+            var marker_64aec9dbb9a3b3b2dc9d337d9d0e8df4 = L.marker(
+                [55.9489, -3.1992],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_8fe756b43d7ffc2a25b385a184506bc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_64aec9dbb9a3b3b2dc9d337d9d0e8df4.setIcon(icon_8fe756b43d7ffc2a25b385a184506bc4);
+        
+    
+        var popup_1580ddfe513b290056b5cdb614411346 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee7626431113d885644dff888226bc55 = $(`<div id="html_ee7626431113d885644dff888226bc55" style="width: 100.0%; height: 100.0%;"><b>Fringe 2024: 10,000 Digits of Pi - Canada</b><br>Canadian show highlighting mathematical wonders at the Edinburgh Fringe 2024.</div>`)[0];
+            popup_1580ddfe513b290056b5cdb614411346.setContent(html_ee7626431113d885644dff888226bc55);
+        
+
+        marker_64aec9dbb9a3b3b2dc9d337d9d0e8df4.bindPopup(popup_1580ddfe513b290056b5cdb614411346)
+        ;
+
+        
+    
+    
+            var marker_a255bb7f0adfbc08aef5fe9121abc129 = L.marker(
+                [55.9474, -3.189],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_fb6fd6f11e97b772238b21f50ecb9768 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_a255bb7f0adfbc08aef5fe9121abc129.setIcon(icon_fb6fd6f11e97b772238b21f50ecb9768);
+        
+    
+        var popup_861ed75fd61d6abbf7eefd02c49bbf22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d1fd912c459329ce72a1541a2add70d = $(`<div id="html_0d1fd912c459329ce72a1541a2add70d" style="width: 100.0%; height: 100.0%;"><b>Fringe 2024: 4 Antipodeans Walk into a Bar - New Zealand</b><br>New Zealand comedy showcase during the Edinburgh Fringe 2024.</div>`)[0];
+            popup_861ed75fd61d6abbf7eefd02c49bbf22.setContent(html_0d1fd912c459329ce72a1541a2add70d);
+        
+
+        marker_a255bb7f0adfbc08aef5fe9121abc129.bindPopup(popup_861ed75fd61d6abbf7eefd02c49bbf22)
+        ;
+
+        
+    
+    
+            var marker_28c49f7912efa0e5ab492e0297aa44c3 = L.marker(
+                [55.9463, -3.1917],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_9f942a7a526dea15fd9918e38354501d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_28c49f7912efa0e5ab492e0297aa44c3.setIcon(icon_9f942a7a526dea15fd9918e38354501d);
+        
+    
+        var popup_9a8b7500ad6acfb4359b65e7f14c3b05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af7c217512132bcb069f5594ae5a88b8 = $(`<div id="html_af7c217512132bcb069f5594ae5a88b8" style="width: 100.0%; height: 100.0%;"><b>Fringe 2024: Adrian Minkowicz: Latin America - Argentina</b><br>Latin American cultural show by Adrian Minkowicz at the Fringe 2024.</div>`)[0];
+            popup_9a8b7500ad6acfb4359b65e7f14c3b05.setContent(html_af7c217512132bcb069f5594ae5a88b8);
+        
+
+        marker_28c49f7912efa0e5ab492e0297aa44c3.bindPopup(popup_9a8b7500ad6acfb4359b65e7f14c3b05)
+        ;
+
+        
+    
+    
+            var marker_813094361205d18a9c231ad3eb16ecd3 = L.marker(
+                [55.9485, -3.1861],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_f5ab3af7b7f400d5c043eef8203f189f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_813094361205d18a9c231ad3eb16ecd3.setIcon(icon_f5ab3af7b7f400d5c043eef8203f189f);
+        
+    
+        var popup_3a43b0132b3c7e6550cb5451ff3fecba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c99d6eb990d03a85438c9305cac7f24a = $(`<div id="html_c99d6eb990d03a85438c9305cac7f24a" style="width: 100.0%; height: 100.0%;"><b>Fringe 2024: 50 Ways Jesus (Almost) Ruined My Life - Germany</b><br>German performance exploring unique narratives at the Fringe 2024.</div>`)[0];
+            popup_3a43b0132b3c7e6550cb5451ff3fecba.setContent(html_c99d6eb990d03a85438c9305cac7f24a);
+        
+
+        marker_813094361205d18a9c231ad3eb16ecd3.bindPopup(popup_3a43b0132b3c7e6550cb5451ff3fecba)
+        ;
+
+        
+    
+    
+            var marker_2508d1e1197dd0a9bf9c2f211c6c3196 = L.marker(
+                [55.9498, -3.1931],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_c5748b9ab6c568ea77f3d137078b5ad4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_2508d1e1197dd0a9bf9c2f211c6c3196.setIcon(icon_c5748b9ab6c568ea77f3d137078b5ad4);
+        
+    
+        var popup_e4951192882af9e7aeb7a113ee00fdf4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5d8d33f6c5d8a948bbf4060629b2b66 = $(`<div id="html_a5d8d33f6c5d8a948bbf4060629b2b66" style="width: 100.0%; height: 100.0%;"><b>Fringe 2024: Echoes from The Archipelago – Indonesia</b><br>An Indonesian musical odyssey presented at the Fringe 2024.</div>`)[0];
+            popup_e4951192882af9e7aeb7a113ee00fdf4.setContent(html_a5d8d33f6c5d8a948bbf4060629b2b66);
+        
+
+        marker_2508d1e1197dd0a9bf9c2f211c6c3196.bindPopup(popup_e4951192882af9e7aeb7a113ee00fdf4)
+        ;
+
+        
+    
+    
+            var marker_1c03f2df0bfdd4781f343b5b18f34c9f = L.marker(
+                [55.95, -3.1882],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_450e503078772e3837c2cd09d724739f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1c03f2df0bfdd4781f343b5b18f34c9f.setIcon(icon_450e503078772e3837c2cd09d724739f);
+        
+    
+        var popup_61df427cb957b3906941a8a6db5c4015 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7da2a1bcb7d26358daa80420fa14ea43 = $(`<div id="html_7da2a1bcb7d26358daa80420fa14ea43" style="width: 100.0%; height: 100.0%;"><b>Fringe 2024: Choose My Own Road – Hong Kong</b><br>Cantonese comedy show at the Edinburgh Fringe 2024.</div>`)[0];
+            popup_61df427cb957b3906941a8a6db5c4015.setContent(html_7da2a1bcb7d26358daa80420fa14ea43);
+        
+
+        marker_1c03f2df0bfdd4781f343b5b18f34c9f.bindPopup(popup_61df427cb957b3906941a8a6db5c4015)
+        ;
+
+        
+    
+    
+            var marker_41288ead8a4c9335a614387dd2daca36 = L.marker(
+                [55.9478, -3.1868],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_797255ba1c19276a009bb3aaa4c0533e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_41288ead8a4c9335a614387dd2daca36.setIcon(icon_797255ba1c19276a009bb3aaa4c0533e);
+        
+    
+        var popup_b82c031c01e809e26d324651b170b825 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bf8bb4997c8c45853e159e92c157527 = $(`<div id="html_1bf8bb4997c8c45853e159e92c157527" style="width: 100.0%; height: 100.0%;"><b>Fringe 2024: Ibrahim Mahama: Songs About Roses - Ghana</b><br>Ghanaian artistic showcase at the Fringe 2024.</div>`)[0];
+            popup_b82c031c01e809e26d324651b170b825.setContent(html_1bf8bb4997c8c45853e159e92c157527);
+        
+
+        marker_41288ead8a4c9335a614387dd2daca36.bindPopup(popup_b82c031c01e809e26d324651b170b825)
+        ;
+
+        
+    
+    
+            var marker_568c48439bc2f1e9f7db083f2979225b = L.marker(
+                [55.947, -3.19],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_260a4367c0b00f69d7241365485899ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_568c48439bc2f1e9f7db083f2979225b.setIcon(icon_260a4367c0b00f69d7241365485899ab);
+        
+    
+        var popup_483628c54d71a7b2a3f36371de92566f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bffb59e2b008753c6f8dafd5f669c8b = $(`<div id="html_9bffb59e2b008753c6f8dafd5f669c8b" style="width: 100.0%; height: 100.0%;"><b>Fringe 2024: A Knock on the Roof by Khawla Ibraheem - Palestine</b><br>A Palestinian narrative performance at the Fringe 2024.</div>`)[0];
+            popup_483628c54d71a7b2a3f36371de92566f.setContent(html_9bffb59e2b008753c6f8dafd5f669c8b);
+        
+
+        marker_568c48439bc2f1e9f7db083f2979225b.bindPopup(popup_483628c54d71a7b2a3f36371de92566f)
+        ;
+
+        
+    
+    
+            var marker_8a6d7e09e3514b7731fb31336b9eb6c8 = L.marker(
+                [55.9525, -3.1744],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_008772172247f97f20ef992f18d8893a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8a6d7e09e3514b7731fb31336b9eb6c8.setIcon(icon_008772172247f97f20ef992f18d8893a);
+        
+    
+        var popup_45aa551d8dc1ea6be10e4310e6712023 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_077a5519d72e310761c95605cac466fb = $(`<div id="html_077a5519d72e310761c95605cac466fb" style="width: 100.0%; height: 100.0%;"><b>Scottish Parliament</b><br>Important place of work and political autonomy in Scotland.</div>`)[0];
+            popup_45aa551d8dc1ea6be10e4310e6712023.setContent(html_077a5519d72e310761c95605cac466fb);
+        
+
+        marker_8a6d7e09e3514b7731fb31336b9eb6c8.bindPopup(popup_45aa551d8dc1ea6be10e4310e6712023)
+        ;
+
+        
+    
+    
+            var marker_81722f93e213e5510f802ece1ba04b6c = L.marker(
+                [55.9492, -3.1936],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_989eaecf87ceb5f7bb44a2dcb0d53077 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_81722f93e213e5510f802ece1ba04b6c.setIcon(icon_989eaecf87ceb5f7bb44a2dcb0d53077);
+        
+    
+        var popup_4f1083b67b2af9873f700898eca16ed0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db85e49bb4397bc0203f2ecf9641b75d = $(`<div id="html_db85e49bb4397bc0203f2ecf9641b75d" style="width: 100.0%; height: 100.0%;"><b>Lawnmarket</b><br>The south side of the Lawnmarket has a strong Dutch influence.</div>`)[0];
+            popup_4f1083b67b2af9873f700898eca16ed0.setContent(html_db85e49bb4397bc0203f2ecf9641b75d);
+        
+
+        marker_81722f93e213e5510f802ece1ba04b6c.bindPopup(popup_4f1083b67b2af9873f700898eca16ed0)
+        ;
+
+        
+    
+    
+            var marker_a326d1b92b555400561a290f74b33c1c = L.marker(
+                [55.952, -3.1965],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_cdee9c0bcfd8b74d34da924916f72965 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a326d1b92b555400561a290f74b33c1c.setIcon(icon_cdee9c0bcfd8b74d34da924916f72965);
+        
+    
+        var popup_262fb2ccf286f782a52f9c2934cc58c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_215665565e8e23ad59a30accf2616e4d = $(`<div id="html_215665565e8e23ad59a30accf2616e4d" style="width: 100.0%; height: 100.0%;"><b>Old Town and New Town</b><br>UNESCO World Heritage Sites showing the perfect fusion of history and modernity.</div>`)[0];
+            popup_262fb2ccf286f782a52f9c2934cc58c4.setContent(html_215665565e8e23ad59a30accf2616e4d);
+        
+
+        marker_a326d1b92b555400561a290f74b33c1c.bindPopup(popup_262fb2ccf286f782a52f9c2934cc58c4)
+        ;
+
+        
+    
+    
+            var marker_a5e04c06b156ca24f17afe88886376d3 = L.marker(
+                [55.9486, -3.1999],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_be951f5a59238f1c201bf670b7fab3f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a5e04c06b156ca24f17afe88886376d3.setIcon(icon_be951f5a59238f1c201bf670b7fab3f6);
+        
+    
+        var popup_f858773b60e6d9104252b3cb791d56b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06239d764d8fa265f941a06d5dc2d9f2 = $(`<div id="html_06239d764d8fa265f941a06d5dc2d9f2" style="width: 100.0%; height: 100.0%;"><b>Castle Hill</b><br>A defensive fortress that developed into a trade and religious center in the early middle ages.</div>`)[0];
+            popup_f858773b60e6d9104252b3cb791d56b9.setContent(html_06239d764d8fa265f941a06d5dc2d9f2);
+        
+
+        marker_a5e04c06b156ca24f17afe88886376d3.bindPopup(popup_f858773b60e6d9104252b3cb791d56b9)
+        ;
+
+        
+    
+    
+            var marker_212820d9a45f281cb402a2197388dca2 = L.marker(
+                [55.9545, -3.2008],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_3af8cd9c7632618268ca20a64459fa55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_212820d9a45f281cb402a2197388dca2.setIcon(icon_3af8cd9c7632618268ca20a64459fa55);
+        
+    
+        var popup_8335e61f01a2986af7341d7d91b7996e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38c2d7f01535f4d6cc8d8f956cd83e43 = $(`<div id="html_38c2d7f01535f4d6cc8d8f956cd83e43" style="width: 100.0%; height: 100.0%;"><b>New Town</b><br>Georgian era urban planning with wide streets and neoclassical buildings.</div>`)[0];
+            popup_8335e61f01a2986af7341d7d91b7996e.setContent(html_38c2d7f01535f4d6cc8d8f956cd83e43);
+        
+
+        marker_212820d9a45f281cb402a2197388dca2.bindPopup(popup_8335e61f01a2986af7341d7d91b7996e)
+        ;
+
+        
+    
+    
+            var marker_17171d0abdd399edad7d793738b6cd48 = L.marker(
+                [55.9803, -3.1725],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_ba34d46c1e9e04d29ec96091f9e297b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_17171d0abdd399edad7d793738b6cd48.setIcon(icon_ba34d46c1e9e04d29ec96091f9e297b6);
+        
+    
+        var popup_13e0847ddba530e9e508b0f42d921ad5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62cf4d53aa551a1dce5fffdf0e752922 = $(`<div id="html_62cf4d53aa551a1dce5fffdf0e752922" style="width: 100.0%; height: 100.0%;"><b>Port of Leith</b><br>An important trading hub in Edinburgh's history.</div>`)[0];
+            popup_13e0847ddba530e9e508b0f42d921ad5.setContent(html_62cf4d53aa551a1dce5fffdf0e752922);
+        
+
+        marker_17171d0abdd399edad7d793738b6cd48.bindPopup(popup_13e0847ddba530e9e508b0f42d921ad5)
+        ;
+
+        
+    
+    
+            var marker_dbf0d0d1cdf94bb5ab1eb20036f7c70f = L.marker(
+                [55.95, -3.1875],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_c0eb21b5951762bc6f127297814bc8ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dbf0d0d1cdf94bb5ab1eb20036f7c70f.setIcon(icon_c0eb21b5951762bc6f127297814bc8ef);
+        
+    
+        var popup_16f4a772b5996f7c2f5d75a56a92b085 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cf5c57f9bf98d0a3e47407d0dde2dd4 = $(`<div id="html_2cf5c57f9bf98d0a3e47407d0dde2dd4" style="width: 100.0%; height: 100.0%;"><b>City Walls</b><br>Surrounded the entire city to protect citizens from outside invasion.</div>`)[0];
+            popup_16f4a772b5996f7c2f5d75a56a92b085.setContent(html_2cf5c57f9bf98d0a3e47407d0dde2dd4);
+        
+
+        marker_dbf0d0d1cdf94bb5ab1eb20036f7c70f.bindPopup(popup_16f4a772b5996f7c2f5d75a56a92b085)
+        ;
+
+        
+    
+    
+            var marker_5a30ff5173163b00d1c0b13dcdd8ad69 = L.marker(
+                [55.9508, -3.2078],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_b14823e19c5b75bc217fa311e8dcb8fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a30ff5173163b00d1c0b13dcdd8ad69.setIcon(icon_b14823e19c5b75bc217fa311e8dcb8fc);
+        
+    
+        var popup_27f7102b85153556748c111cf35e7a3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2db8f9d6010559c7adafb4aaf7b5001 = $(`<div id="html_f2db8f9d6010559c7adafb4aaf7b5001" style="width: 100.0%; height: 100.0%;"><b>Royal Bank of Scotland Headquarters</b><br>One of the UK's largest banks, headquartered in Edinburgh, a financial center.</div>`)[0];
+            popup_27f7102b85153556748c111cf35e7a3c.setContent(html_f2db8f9d6010559c7adafb4aaf7b5001);
+        
+
+        marker_5a30ff5173163b00d1c0b13dcdd8ad69.bindPopup(popup_27f7102b85153556748c111cf35e7a3c)
+        ;
+
+        
+    
+    
+            var marker_bbef35767b15d61f9e828e9fad6b0206 = L.marker(
+                [55.9443, -3.1885],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_70f7534d782c3cc9321f601a2b37cf2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bbef35767b15d61f9e828e9fad6b0206.setIcon(icon_70f7534d782c3cc9321f601a2b37cf2a);
+        
+    
+        var popup_5982200f83681e2c7b3e2cc1492d631b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff5f6bc7bfddc6f51c1ac07985b7b864 = $(`<div id="html_ff5f6bc7bfddc6f51c1ac07985b7b864" style="width: 100.0%; height: 100.0%;"><b>University of Edinburgh</b><br>A world-renowned university promoting education and scientific research.</div>`)[0];
+            popup_5982200f83681e2c7b3e2cc1492d631b.setContent(html_ff5f6bc7bfddc6f51c1ac07985b7b864);
+        
+
+        marker_bbef35767b15d61f9e828e9fad6b0206.bindPopup(popup_5982200f83681e2c7b3e2cc1492d631b)
+        ;
+
+        
+    
+    
+            var marker_6c248d96dd96228ebb5a561fb1728c9c = L.marker(
+                [55.9226, -3.1543],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_2e08bb4c5d7ec5ccedd8046e228431a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6c248d96dd96228ebb5a561fb1728c9c.setIcon(icon_2e08bb4c5d7ec5ccedd8046e228431a1);
+        
+    
+        var popup_e9e99e9a39d7bef19eec3f0b79b75252 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71365abb857e77edf9b1a73cc885d49f = $(`<div id="html_71365abb857e77edf9b1a73cc885d49f" style="width: 100.0%; height: 100.0%;"><b>Royal Infirmary of Edinburgh</b><br>A world-leading research institution in healthcare and life sciences.</div>`)[0];
+            popup_e9e99e9a39d7bef19eec3f0b79b75252.setContent(html_71365abb857e77edf9b1a73cc885d49f);
+        
+
+        marker_6c248d96dd96228ebb5a561fb1728c9c.bindPopup(popup_e9e99e9a39d7bef19eec3f0b79b75252)
+        ;
+
+        
+    
+    
+            var marker_5b58d63369107b8e89e5ecb4928fbe80 = L.marker(
+                [55.9491, -3.1917],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_6efd4798f0fd49723d61a297d6c24e6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5b58d63369107b8e89e5ecb4928fbe80.setIcon(icon_6efd4798f0fd49723d61a297d6c24e6e);
+        
+    
+        var popup_109f080f8cbab4d269042cd443f0208d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0667c77bbebd9f85fb3ed90c023702e = $(`<div id="html_d0667c77bbebd9f85fb3ed90c023702e" style="width: 100.0%; height: 100.0%;"><b>Royal Mile Bagpipe Performances</b><br>An important part of Edinburgh's cultural atmosphere.</div>`)[0];
+            popup_109f080f8cbab4d269042cd443f0208d.setContent(html_d0667c77bbebd9f85fb3ed90c023702e);
+        
+
+        marker_5b58d63369107b8e89e5ecb4928fbe80.bindPopup(popup_109f080f8cbab4d269042cd443f0208d)
+        ;
+
+        
+    
+    
+            var marker_232379cb68704aec90f799b93f7a14a7 = L.marker(
+                [55.9483, -3.1911],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_51ff30c9e3ca95ecb44362cf4a15dbfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_232379cb68704aec90f799b93f7a14a7.setIcon(icon_51ff30c9e3ca95ecb44362cf4a15dbfc);
+        
+    
+        var popup_43c16a81d5976a7c09f9af670401ecb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cdb4db6cff14eb0d556f810bb2a3d01 = $(`<div id="html_6cdb4db6cff14eb0d556f810bb2a3d01" style="width: 100.0%; height: 100.0%;"><b>Filming Locations for Movies and TV</b><br>Movies like 'One Day' and 'Brave Heart' were filmed here.</div>`)[0];
+            popup_43c16a81d5976a7c09f9af670401ecb3.setContent(html_6cdb4db6cff14eb0d556f810bb2a3d01);
+        
+
+        marker_232379cb68704aec90f799b93f7a14a7.bindPopup(popup_43c16a81d5976a7c09f9af670401ecb3)
+        ;
+
+        
+    
+    
+            var marker_00a8fe355caa4d1638b3c4c6f7eec0b5 = L.marker(
+                [55.9494, -3.1919],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_f02e89ec93191d231872ad22c1ba9b12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_00a8fe355caa4d1638b3c4c6f7eec0b5.setIcon(icon_f02e89ec93191d231872ad22c1ba9b12);
+        
+    
+        var popup_d08368f4b4c9f9940a47e0bfd703776c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5ad5f87f2d9d4d639832725d8c13186 = $(`<div id="html_e5ad5f87f2d9d4d639832725d8c13186" style="width: 100.0%; height: 100.0%;"><b>City of Literature by UNESCO</b><br>Edinburgh became the world's first City of Literature in 2004.</div>`)[0];
+            popup_d08368f4b4c9f9940a47e0bfd703776c.setContent(html_e5ad5f87f2d9d4d639832725d8c13186);
+        
+
+        marker_00a8fe355caa4d1638b3c4c6f7eec0b5.bindPopup(popup_d08368f4b4c9f9940a47e0bfd703776c)
+        ;
+
+        
+    
+    
+            var marker_88e722facd1682f3eae86223090c4b9e = L.marker(
+                [55.9464, -3.1878],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_c4a23cfc9d4088a3d25f5f4ce1cfff36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_88e722facd1682f3eae86223090c4b9e.setIcon(icon_c4a23cfc9d4088a3d25f5f4ce1cfff36);
+        
+    
+        var popup_f05c99abacfaa84b12ad3da9b4c06e1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0512d414dfe4cb0b9f0d8d79da1fa50b = $(`<div id="html_0512d414dfe4cb0b9f0d8d79da1fa50b" style="width: 100.0%; height: 100.0%;"><b>Harry Potter Inspiration</b><br>Inspired by Edinburgh's atmosphere and JK Rowling's time here.</div>`)[0];
+            popup_f05c99abacfaa84b12ad3da9b4c06e1a.setContent(html_0512d414dfe4cb0b9f0d8d79da1fa50b);
+        
+
+        marker_88e722facd1682f3eae86223090c4b9e.bindPopup(popup_f05c99abacfaa84b12ad3da9b4c06e1a)
+        ;
+
+        
+    
+    
+            var marker_94a07d96efc04d5ffe651205f891416d = L.marker(
+                [55.9519, -3.1937],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_60d7cfe5bafea6c738f45370d198c706 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_94a07d96efc04d5ffe651205f891416d.setIcon(icon_60d7cfe5bafea6c738f45370d198c706);
+        
+    
+        var popup_f42b1f24333e0cdf24d4611ba979e425 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_067fcaa5795a21cce6d1d7930bc70720 = $(`<div id="html_067fcaa5795a21cce6d1d7930bc70720" style="width: 100.0%; height: 100.0%;"><b>Sherlock Holmes Inspiration</b><br>Edinburgh, home city of Arthur Conan Doyle, inspired the Sherlock Holmes series.</div>`)[0];
+            popup_f42b1f24333e0cdf24d4611ba979e425.setContent(html_067fcaa5795a21cce6d1d7930bc70720);
+        
+
+        marker_94a07d96efc04d5ffe651205f891416d.bindPopup(popup_f42b1f24333e0cdf24d4611ba979e425)
+        ;
+
+        
+    
+    
+            var marker_913145b44e8d7b4acf99ae71ddaa6572 = L.marker(
+                [55.9504, -3.191],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_a9240c10110a3a2a1f75156490701f73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_913145b44e8d7b4acf99ae71ddaa6572.setIcon(icon_a9240c10110a3a2a1f75156490701f73);
+        
+    
+        var popup_e30408b8fcf0a083b4c0021080c8a59b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecc6c4d426bb6c2d971852d0efc23900 = $(`<div id="html_ecc6c4d426bb6c2d971852d0efc23900" style="width: 100.0%; height: 100.0%;"><b>David Hume Statue</b><br>A statue commemorating the Scottish philosopher.</div>`)[0];
+            popup_e30408b8fcf0a083b4c0021080c8a59b.setContent(html_ecc6c4d426bb6c2d971852d0efc23900);
+        
+
+        marker_913145b44e8d7b4acf99ae71ddaa6572.bindPopup(popup_e30408b8fcf0a083b4c0021080c8a59b)
+        ;
+
+        
+    
+    
+            var marker_fa8c268d4379d7d345c8ba19e0af9a4a = L.marker(
+                [55.95, -3.1919],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_5671a89436b476d1b08ff14b60a19cce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa8c268d4379d7d345c8ba19e0af9a4a.setIcon(icon_5671a89436b476d1b08ff14b60a19cce);
+        
+    
+        var popup_438128497ad816aaf889f5308038773d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69e292027249dd599028da78418db728 = $(`<div id="html_69e292027249dd599028da78418db728" style="width: 100.0%; height: 100.0%;"><b>Adam Smith Statue</b><br>A statue honoring the father of modern economics.</div>`)[0];
+            popup_438128497ad816aaf889f5308038773d.setContent(html_69e292027249dd599028da78418db728);
+        
+
+        marker_fa8c268d4379d7d345c8ba19e0af9a4a.bindPopup(popup_438128497ad816aaf889f5308038773d)
+        ;
+
+        
+    
+    
+            var poly_line_120f29e9bd2df2e0083c407b052a2dbc = L.polyline(
+                [[55.9493, -3.1903], [-30.5595, 22.9375]],
+                {"bubblingMouseEvents": true, "color": "darkgrey", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgrey", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var poly_line_0d8eeefe3e8ced438327730d56e35df3 = L.polyline(
+                [[55.9506, -3.1875], [35.8617, 104.1954]],
+                {"bubblingMouseEvents": true, "color": "darkgrey", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgrey", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var poly_line_d8ed5d2753c6ce5bfe37b47de04d1dce = L.polyline(
+                [[55.9489, -3.1992], [56.1304, -106.3468]],
+                {"bubblingMouseEvents": true, "color": "darkgrey", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgrey", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var poly_line_2fcafe0067a0a524015f5ebfd2693b60 = L.polyline(
+                [[55.9474, -3.189], [-40.9006, 174.886]],
+                {"bubblingMouseEvents": true, "color": "darkgrey", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgrey", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var poly_line_99e79a7a496ddc1732f9123dbd9c6e12 = L.polyline(
+                [[55.9463, -3.1917], [-38.4161, -63.6167]],
+                {"bubblingMouseEvents": true, "color": "darkgrey", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgrey", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var poly_line_bd4491dfb9b8ac861d55ef8754bfe7c9 = L.polyline(
+                [[55.9485, -3.1861], [51.1657, 10.4515]],
+                {"bubblingMouseEvents": true, "color": "darkgrey", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgrey", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var poly_line_963c2fc75feb6d6406af28d757666f5a = L.polyline(
+                [[55.9498, -3.1931], [-0.7893, 113.9213]],
+                {"bubblingMouseEvents": true, "color": "darkgrey", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgrey", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var poly_line_c74bcd0164ac4a55b25492ab0c72417f = L.polyline(
+                [[55.95, -3.1882], [22.3193, 114.1694]],
+                {"bubblingMouseEvents": true, "color": "darkgrey", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgrey", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var poly_line_065e4ad95de2545e6b2b2f57bfb7307c = L.polyline(
+                [[55.9478, -3.1868], [7.9465, -1.0232]],
+                {"bubblingMouseEvents": true, "color": "darkgrey", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgrey", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var poly_line_0d055c6fb586e11ab143679eb3d56376 = L.polyline(
+                [[55.947, -3.19], [31.9522, 35.2332]],
+                {"bubblingMouseEvents": true, "color": "darkgrey", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgrey", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var marker_0caf327eca896f8f8f7df13abe892185 = L.marker(
+                [55.9518, -3.1821],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_84ae74868873b7ca8a3e1baadb9e6a2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_0caf327eca896f8f8f7df13abe892185.setIcon(icon_84ae74868873b7ca8a3e1baadb9e6a2b);
+        
+    
+        var popup_e5b6e726a83e089028bb1ac5bf61fe4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9d4bd090c76a537e0b93081eea5a116 = $(`<div id="html_e9d4bd090c76a537e0b93081eea5a116" style="width: 100.0%; height: 100.0%;"><b>Canongate</b><br>Located in Canongate. This area wasn’t part of Edinburgh a couple of hundred years ago. People would leave the city through the tollbooth and pay a fee to get back in.</div>`)[0];
+            popup_e5b6e726a83e089028bb1ac5bf61fe4c.setContent(html_e9d4bd090c76a537e0b93081eea5a116);
+        
+
+        marker_0caf327eca896f8f8f7df13abe892185.bindPopup(popup_e5b6e726a83e089028bb1ac5bf61fe4c)
+        ;
+
+        
+    
+    
+            var marker_4aa106963297552bdb87edce657952d2 = L.marker(
+                [54.9783, -1.6174],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_73247736434891daec4aad0f7da9b31e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_4aa106963297552bdb87edce657952d2.setIcon(icon_73247736434891daec4aad0f7da9b31e);
+        
+    
+        var popup_22bf24369f5b82e293dd2006c5e97af1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f6f33ca5e0ded6c6570e557209a7710 = $(`<div id="html_5f6f33ca5e0ded6c6570e557209a7710" style="width: 100.0%; height: 100.0%;"><b>Newcastle</b><br>A key point on this route.</div>`)[0];
+            popup_22bf24369f5b82e293dd2006c5e97af1.setContent(html_5f6f33ca5e0ded6c6570e557209a7710);
+        
+
+        marker_4aa106963297552bdb87edce657952d2.bindPopup(popup_22bf24369f5b82e293dd2006c5e97af1)
+        ;
+
+        
+    
+    
+            var marker_5e715eb4a085ff4f33e605cec3276c52 = L.marker(
+                [51.5074, -0.1278],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_2905166c15a2e9c955b325b2fe941c66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_5e715eb4a085ff4f33e605cec3276c52.setIcon(icon_2905166c15a2e9c955b325b2fe941c66);
+        
+    
+        var popup_81e6298eeb44b9fd300cef09208e755b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b96f5343fe7ab642a3b66a6e52de16d8 = $(`<div id="html_b96f5343fe7ab642a3b66a6e52de16d8" style="width: 100.0%; height: 100.0%;"><b>London</b><br>The end of the route.</div>`)[0];
+            popup_81e6298eeb44b9fd300cef09208e755b.setContent(html_b96f5343fe7ab642a3b66a6e52de16d8);
+        
+
+        marker_5e715eb4a085ff4f33e605cec3276c52.bindPopup(popup_81e6298eeb44b9fd300cef09208e755b)
+        ;
+
+        
+    
+    
+            var marker_aba683ed031b2463405acbc4248469c7 = L.marker(
+                [55.9495, -3.1909],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_a22c95ec4fc2ea0c7dafb907c57db1e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_aba683ed031b2463405acbc4248469c7.setIcon(icon_a22c95ec4fc2ea0c7dafb907c57db1e6);
+        
+    
+        var popup_185d87368f372a52141d811ea664ac3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6382d62cce168505b3f21a3087384af = $(`<div id="html_f6382d62cce168505b3f21a3087384af" style="width: 100.0%; height: 100.0%;"><b>Royal Mile</b><br>Neighborhood, access is via the archway.</div>`)[0];
+            popup_185d87368f372a52141d811ea664ac3c.setContent(html_f6382d62cce168505b3f21a3087384af);
+        
+
+        marker_aba683ed031b2463405acbc4248469c7.bindPopup(popup_185d87368f372a52141d811ea664ac3c)
+        ;
+
+        
+    
+    
+            var marker_1dd67ea025e172bf656b4ee979b31855 = L.marker(
+                [55.9515, -3.1905],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_282509e5fca16f2892bcaf2d85c1d1fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_1dd67ea025e172bf656b4ee979b31855.setIcon(icon_282509e5fca16f2892bcaf2d85c1d1fc);
+        
+    
+        var popup_61a06e82c352f789d0ea14c0101352cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f11737376efdce11cf856a380523173 = $(`<div id="html_4f11737376efdce11cf856a380523173" style="width: 100.0%; height: 100.0%;"><b>Waverley Railway Station</b><br>In the 19th century, it gradually replaced White Horse Close as a transportation hub.</div>`)[0];
+            popup_61a06e82c352f789d0ea14c0101352cd.setContent(html_4f11737376efdce11cf856a380523173);
+        
+
+        marker_1dd67ea025e172bf656b4ee979b31855.bindPopup(popup_61a06e82c352f789d0ea14c0101352cd)
+        ;
+
+        
+    
+    
+            var marker_8762c5962a56e21a7117770cd1f5ef9a = L.marker(
+                [55.9518, -3.1821],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_36f79b1fc8c915c08acd57cce9cca009 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8762c5962a56e21a7117770cd1f5ef9a.setIcon(icon_36f79b1fc8c915c08acd57cce9cca009);
+        
+    
+        var popup_f2012d16eb74ef14e6be33d006a3ce96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12e08031f50f92852c3ef7031ad7388a = $(`<div id="html_12e08031f50f92852c3ef7031ad7388a" style="width: 100.0%; height: 100.0%;"><b>Canongate</b><br>Located in Canongate. This area wasn’t part of Edinburgh a couple of hundred years ago. People would leave the city through the tollbooth and pay a fee to get back in.</div>`)[0];
+            popup_f2012d16eb74ef14e6be33d006a3ce96.setContent(html_12e08031f50f92852c3ef7031ad7388a);
+        
+
+        marker_8762c5962a56e21a7117770cd1f5ef9a.bindPopup(popup_f2012d16eb74ef14e6be33d006a3ce96)
+        ;
+
+        
+    
+    
+            var marker_88c2aa41d14405d47b7fe4fd8f44d2b5 = L.marker(
+                [54.9783, -1.6174],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_21383c596a91bb7e794d0154f929cb93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_88c2aa41d14405d47b7fe4fd8f44d2b5.setIcon(icon_21383c596a91bb7e794d0154f929cb93);
+        
+    
+        var popup_fa8e2db128e07b477861733c6fe34544 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df67e61bb95e37cae3136e69d9ebaec2 = $(`<div id="html_df67e61bb95e37cae3136e69d9ebaec2" style="width: 100.0%; height: 100.0%;"><b>Newcastle</b><br>A key point on this route.</div>`)[0];
+            popup_fa8e2db128e07b477861733c6fe34544.setContent(html_df67e61bb95e37cae3136e69d9ebaec2);
+        
+
+        marker_88c2aa41d14405d47b7fe4fd8f44d2b5.bindPopup(popup_fa8e2db128e07b477861733c6fe34544)
+        ;
+
+        
+    
+    
+            var marker_102a98a6e1a50e633132c954684f59cf = L.marker(
+                [51.5074, -0.1278],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_db869af31ec163307d0526d6e4c43e89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_102a98a6e1a50e633132c954684f59cf.setIcon(icon_db869af31ec163307d0526d6e4c43e89);
+        
+    
+        var popup_e276ab149a1a8b6d6de33496714ee518 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3f5a4d00a9e29115140b66a2397a5dd = $(`<div id="html_d3f5a4d00a9e29115140b66a2397a5dd" style="width: 100.0%; height: 100.0%;"><b>London</b><br>The end of the route.</div>`)[0];
+            popup_e276ab149a1a8b6d6de33496714ee518.setContent(html_d3f5a4d00a9e29115140b66a2397a5dd);
+        
+
+        marker_102a98a6e1a50e633132c954684f59cf.bindPopup(popup_e276ab149a1a8b6d6de33496714ee518)
+        ;
+
+        
+    
+    
+            var marker_0779b121ef24766ebb366dab73542c29 = L.marker(
+                [55.9495, -3.1909],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_5cefd341a5276fba2569e5a0ff0d2f8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0779b121ef24766ebb366dab73542c29.setIcon(icon_5cefd341a5276fba2569e5a0ff0d2f8c);
+        
+    
+        var popup_ea16b9256143580ec991a524ddf8d208 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a579721aa26a1f1150e8e1ec78539119 = $(`<div id="html_a579721aa26a1f1150e8e1ec78539119" style="width: 100.0%; height: 100.0%;"><b>Royal Mile</b><br>Neighborhood, access is via the archway.</div>`)[0];
+            popup_ea16b9256143580ec991a524ddf8d208.setContent(html_a579721aa26a1f1150e8e1ec78539119);
+        
+
+        marker_0779b121ef24766ebb366dab73542c29.bindPopup(popup_ea16b9256143580ec991a524ddf8d208)
+        ;
+
+        
+    
+    
+            var marker_7e5755655ca8ec8ac3a7332611004b9b = L.marker(
+                [55.9515, -3.1905],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_5227faa6da30034c62b709ddbf36ec6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7e5755655ca8ec8ac3a7332611004b9b.setIcon(icon_5227faa6da30034c62b709ddbf36ec6a);
+        
+    
+        var popup_2fa4cca121b835549ab431457fb5d4be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e09f76b0da4d46364d6ac663826c3f8 = $(`<div id="html_4e09f76b0da4d46364d6ac663826c3f8" style="width: 100.0%; height: 100.0%;"><b>Waverley Railway Station</b><br>In the 19th century, it gradually replaced White Horse Close as a transportation hub.</div>`)[0];
+            popup_2fa4cca121b835549ab431457fb5d4be.setContent(html_4e09f76b0da4d46364d6ac663826c3f8);
+        
+
+        marker_7e5755655ca8ec8ac3a7332611004b9b.bindPopup(popup_2fa4cca121b835549ab431457fb5d4be)
+        ;
+
+        
+    
+    
+            var poly_line_03f01791fb64fa67c889dcaaced4f263 = L.polyline(
+                [[55.9519, -3.1762], [54.9783, -1.6178], [51.5074, -0.1278]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            poly_line_03f01791fb64fa67c889dcaaced4f263.bindTooltip(
+                `<div>
+                     Historical Route: White Horse Close → Newcastle → London
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89f4eb73d0a39963be452488a164a83e = L.marker(
+                [55.9443, -3.1885],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_af75a8fbdd0f9c60da37e7d3c39a8f44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_89f4eb73d0a39963be452488a164a83e.setIcon(icon_af75a8fbdd0f9c60da37e7d3c39a8f44);
+        
+    
+        var popup_5be2728e1a8cc051cb84df9e2d12027b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0f344aa347610f8aca8c1730142cdd0 = $(`<div id="html_d0f344aa347610f8aca8c1730142cdd0" style="width: 100.0%; height: 100.0%;"><b>University of Edinburgh</b><br>Symbol of academic prestige and cultural exchange, with connections to veterinary education stemming from White Horse Close.</div>`)[0];
+            popup_5be2728e1a8cc051cb84df9e2d12027b.setContent(html_d0f344aa347610f8aca8c1730142cdd0);
+        
+
+        marker_89f4eb73d0a39963be452488a164a83e.bindPopup(popup_5be2728e1a8cc051cb84df9e2d12027b)
+        ;
+
+        
+    
+    
+            var marker_d0c5a4c582b617d0e18f9f06dfcc5926 = L.marker(
+                [55.9408, -3.182],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_0544ad3b481c59bbb6225d9846cdc916 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d0c5a4c582b617d0e18f9f06dfcc5926.setIcon(icon_0544ad3b481c59bbb6225d9846cdc916);
+        
+    
+        var popup_c2ea8ea5165f85b29d1579dcba76ade1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91d0eb69e00aba658425a41f07b5f154 = $(`<div id="html_91d0eb69e00aba658425a41f07b5f154" style="width: 100.0%; height: 100.0%;"><b>Summerhall (Arts Venue)</b><br>Former site of the vet school founded by William Dick of White Horse Close. Now a cultural venue.</div>`)[0];
+            popup_c2ea8ea5165f85b29d1579dcba76ade1.setContent(html_91d0eb69e00aba658425a41f07b5f154);
+        
+
+        marker_d0c5a4c582b617d0e18f9f06dfcc5926.bindPopup(popup_c2ea8ea5165f85b29d1579dcba76ade1)
+        ;
+
+        
+    
+    
+            var marker_fd575fdfb0296d7b1c776f7c8859eb65 = L.marker(
+                [55.9519, -3.1762],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_d521ccdc1278d55ee7d4afce5637f2b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fd575fdfb0296d7b1c776f7c8859eb65.setIcon(icon_d521ccdc1278d55ee7d4afce5637f2b3);
+        
+    
+        var popup_053234eec549ef9851589da8ef9558d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3aa545c968cc10285fe8ffe2ba310304 = $(`<div id="html_3aa545c968cc10285fe8ffe2ba310304" style="width: 100.0%; height: 100.0%;"><b>White Horse Close</b><br>Birthplace of William Dick, founder of Scotland's first veterinary school. Historically connected to Mary, Queen of Scots.</div>`)[0];
+            popup_053234eec549ef9851589da8ef9558d3.setContent(html_3aa545c968cc10285fe8ffe2ba310304);
+        
+
+        marker_fd575fdfb0296d7b1c776f7c8859eb65.bindPopup(popup_053234eec549ef9851589da8ef9558d3)
+        ;
+
+        
+    
+    
+            var marker_e52c6d28a13d4ead0f9c21a730c31936 = L.marker(
+                [55.9524, -3.1725],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_8cad6eab998603b8a8ddb59dcea79746 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e52c6d28a13d4ead0f9c21a730c31936.setIcon(icon_8cad6eab998603b8a8ddb59dcea79746);
+        
+    
+        var popup_f1ca3a81a7096d4b21e3034bffa077a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_010fc55d3261a43699eafaac86f774c6 = $(`<div id="html_010fc55d3261a43699eafaac86f774c6" style="width: 100.0%; height: 100.0%;"><b>Palace of Holyroodhouse</b><br>Nearby royal residence, linked to White Horse Close's royal connections through Mary, Queen of Scots.</div>`)[0];
+            popup_f1ca3a81a7096d4b21e3034bffa077a2.setContent(html_010fc55d3261a43699eafaac86f774c6);
+        
+
+        marker_e52c6d28a13d4ead0f9c21a730c31936.bindPopup(popup_f1ca3a81a7096d4b21e3034bffa077a2)
+        ;
+
+        
+    
+    
+            var marker_eb261ca6c2f6f9d92ba4e05129d008eb = L.marker(
+                [55.9495, -3.1909],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_0d534ab7810b6a7c9528b3c201de00cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_eb261ca6c2f6f9d92ba4e05129d008eb.setIcon(icon_0d534ab7810b6a7c9528b3c201de00cf);
+        
+    
+        var popup_afe1c9e06de38db84a2acc6f469d6c57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_579be2dbac4f510ad5697346c45dc7b1 = $(`<div id="html_579be2dbac4f510ad5697346c45dc7b1" style="width: 100.0%; height: 100.0%;"><b>Royal Mile</b><br>Historic artery of Edinburgh. White Horse Close is situated at its foot, emphasizing its role in Edinburgh's medieval life.</div>`)[0];
+            popup_afe1c9e06de38db84a2acc6f469d6c57.setContent(html_579be2dbac4f510ad5697346c45dc7b1);
+        
+
+        marker_eb261ca6c2f6f9d92ba4e05129d008eb.bindPopup(popup_afe1c9e06de38db84a2acc6f469d6c57)
+        ;
+
+        
+    
+    
+            var marker_234e3e30353502353bded2bc7db5dc74 = L.marker(
+                [55.9515, -3.1905],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_14c7dcfd86c6262ab0c53226142993d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_234e3e30353502353bded2bc7db5dc74.setIcon(icon_14c7dcfd86c6262ab0c53226142993d9);
+        
+    
+        var popup_958af70a9c04f54d755d304e8d048cc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17315c64e96b59e77bf25a8d043ebe5b = $(`<div id="html_17315c64e96b59e77bf25a8d043ebe5b" style="width: 100.0%; height: 100.0%;"><b>Edinburgh Waverley Station</b><br>Main railway hub, connecting Edinburgh and White Horse Close to the UK and beyond.</div>`)[0];
+            popup_958af70a9c04f54d755d304e8d048cc2.setContent(html_17315c64e96b59e77bf25a8d043ebe5b);
+        
+
+        marker_234e3e30353502353bded2bc7db5dc74.bindPopup(popup_958af70a9c04f54d755d304e8d048cc2)
+        ;
+
+        
+    
+    
+            var marker_6e1153512c83327797cb7a192330775f = L.marker(
+                [55.9544, -3.1962],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_f8a7ab6b7322d197bff38e73c9d73140 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6e1153512c83327797cb7a192330775f.setIcon(icon_f8a7ab6b7322d197bff38e73c9d73140);
+        
+    
+        var popup_7771da31b733b6344dfc1511710e504e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0d6862d518623c7c81a44d9b1ef8cce = $(`<div id="html_a0d6862d518623c7c81a44d9b1ef8cce" style="width: 100.0%; height: 100.0%;"><b>Former Clyde Street Vet School (1833)</b><br>First dedicated premises of the vet school, established by William Dick from White Horse Close.</div>`)[0];
+            popup_7771da31b733b6344dfc1511710e504e.setContent(html_a0d6862d518623c7c81a44d9b1ef8cce);
+        
+
+        marker_6e1153512c83327797cb7a192330775f.bindPopup(popup_7771da31b733b6344dfc1511710e504e)
+        ;
+
+        
+    
+    
+            var marker_1434ee7b0c0c63c92a04937963d83988 = L.marker(
+                [55.95, -3.3725],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_aeeb1001b5b407d79d825ea7f3404793 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1434ee7b0c0c63c92a04937963d83988.setIcon(icon_aeeb1001b5b407d79d825ea7f3404793);
+        
+    
+        var popup_7070924d7bf6b78a75c1ccd08ba6b1ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18993816f8bf65bf616a876bfd516162 = $(`<div id="html_18993816f8bf65bf616a876bfd516162" style="width: 100.0%; height: 100.0%;"><b>Edinburgh Airport</b><br>International gateway connecting Edinburgh and White Horse Close to the world.</div>`)[0];
+            popup_7070924d7bf6b78a75c1ccd08ba6b1ab.setContent(html_18993816f8bf65bf616a876bfd516162);
+        
+
+        marker_1434ee7b0c0c63c92a04937963d83988.bindPopup(popup_7070924d7bf6b78a75c1ccd08ba6b1ab)
+        ;
+
+        
+    
+    
+            var marker_d9258d5d3a24ee08fabb4e2a7a326d21 = L.marker(
+                [53.4129, -8.2439],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_1388a8ab932ff20e490e48894959415d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d9258d5d3a24ee08fabb4e2a7a326d21.setIcon(icon_1388a8ab932ff20e490e48894959415d);
+        
+    
+        var popup_33407f2e334b1372bc78d14c31de0f81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bf18f8ded8b80e548fb1e2682569269 = $(`<div id="html_5bf18f8ded8b80e548fb1e2682569269" style="width: 100.0%; height: 100.0%;"><b>Ireland (Vet School Influence)</b><br>Connected through veterinary graduates' contributions, stemming from White Horse Close.</div>`)[0];
+            popup_33407f2e334b1372bc78d14c31de0f81.setContent(html_5bf18f8ded8b80e548fb1e2682569269);
+        
+
+        marker_d9258d5d3a24ee08fabb4e2a7a326d21.bindPopup(popup_33407f2e334b1372bc78d14c31de0f81)
+        ;
+
+        
+    
+    
+            var marker_abf9aa6ba850d79c805a04926d46b1a0 = L.marker(
+                [56.1304, -106.3468],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_95c45b0719ba4db0958724bd1075d91f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_abf9aa6ba850d79c805a04926d46b1a0.setIcon(icon_95c45b0719ba4db0958724bd1075d91f);
+        
+    
+        var popup_724574be506c46e359587b06eba7f0d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89e31fd7fa727b0b42bdcf443ac3158e = $(`<div id="html_89e31fd7fa727b0b42bdcf443ac3158e" style="width: 100.0%; height: 100.0%;"><b>Canada (Vet School Influence)</b><br>Dick Vet alumni, whose roots trace back to White Horse Close, helped establish veterinary programs in Canada.</div>`)[0];
+            popup_724574be506c46e359587b06eba7f0d2.setContent(html_89e31fd7fa727b0b42bdcf443ac3158e);
+        
+
+        marker_abf9aa6ba850d79c805a04926d46b1a0.bindPopup(popup_724574be506c46e359587b06eba7f0d2)
+        ;
+
+        
+    
+    
+            var marker_dc34c2d8abf0aa7f6dcbd856b309f585 = L.marker(
+                [37.0902, -95.7129],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_4835df9b95884d84ab5877975d564019 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_dc34c2d8abf0aa7f6dcbd856b309f585.setIcon(icon_4835df9b95884d84ab5877975d564019);
+        
+    
+        var popup_c3783ad6a8755e91cf927ffc98158315 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcd3d4cca51eaa34edd1a158c108ca88 = $(`<div id="html_dcd3d4cca51eaa34edd1a158c108ca88" style="width: 100.0%; height: 100.0%;"><b>United States (Vet School Influence)</b><br>Veterinary education in the U.S. benefited from Dick Vet graduates originating from White Horse Close.</div>`)[0];
+            popup_c3783ad6a8755e91cf927ffc98158315.setContent(html_dcd3d4cca51eaa34edd1a158c108ca88);
+        
+
+        marker_dc34c2d8abf0aa7f6dcbd856b309f585.bindPopup(popup_c3783ad6a8755e91cf927ffc98158315)
+        ;
+
+        
+    
+    
+            var marker_dcbd4fdd3aa00df54343affeda84caa4 = L.marker(
+                [-25.2744, 133.7751],
+                {}
+            ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+    
+            var icon_3aa8734508f1190c789d1da68b3107bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_dcbd4fdd3aa00df54343affeda84caa4.setIcon(icon_3aa8734508f1190c789d1da68b3107bc);
+        
+    
+        var popup_0881b1a4d112cebb762e9c7a7ddedd58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01f4ba91f719fde9389993617e6ba2fe = $(`<div id="html_01f4ba91f719fde9389993617e6ba2fe" style="width: 100.0%; height: 100.0%;"><b>Australia (Vet School Influence)</b><br>Veterinary graduates from the Dick Vet, founded at White Horse Close, contributed to schools in Australia.</div>`)[0];
+            popup_0881b1a4d112cebb762e9c7a7ddedd58.setContent(html_01f4ba91f719fde9389993617e6ba2fe);
+        
+
+        marker_dcbd4fdd3aa00df54343affeda84caa4.bindPopup(popup_0881b1a4d112cebb762e9c7a7ddedd58)
+        ;
+
+        
+    
+
+        var poly_line_canada = L.polyline(
+            [[56.1304, -106.3468], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_australia = L.polyline(
+            [[-25.2744, 133.7751], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_ireland = L.polyline(
+            [[53.1424, -7.6921], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+        var poly_line_usa = L.polyline(
+            [[37.0902, -95.7129], [55.9493, -3.1903]],
+            {"color": "grey", "weight": 2, "opacity": 1.0}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+    
+
+        var marker_linlithgow_palace = L.marker(
+            [55.9763, -3.6035],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_linlithgow_palace = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_linlithgow_palace.setIcon(icon_linlithgow_palace);
+        
+        var popup_linlithgow_palace = L.popup({"maxWidth": "100%"});
+        var html_linlithgow_palace = $(`<div style="width: 100.0%; height: 100.0%;"><b>Linlithgow Palace</b><br>Birthplace of Mary, Queen of Scots, reflecting Scotland’s royal heritage.</div>`)[0];
+        popup_linlithgow_palace.setContent(html_linlithgow_palace);
+        marker_linlithgow_palace.bindPopup(popup_linlithgow_palace);
+    
+        var marker_fotheringhay_castle = L.marker(
+            [52.524, -0.4377],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_fotheringhay_castle = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_fotheringhay_castle.setIcon(icon_fotheringhay_castle);
+        
+        var popup_fotheringhay_castle = L.popup({"maxWidth": "100%"});
+        var html_fotheringhay_castle = $(`<div style="width: 100.0%; height: 100.0%;"><b>Fotheringhay Castle</b><br>The site of Mary, Queen of Scots’ execution in 1587.</div>`)[0];
+        popup_fotheringhay_castle.setContent(html_fotheringhay_castle);
+        marker_fotheringhay_castle.bindPopup(popup_fotheringhay_castle);
+    
+        var marker_scott_monument = L.marker(
+            [55.952, -3.1938],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_scott_monument = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_scott_monument.setIcon(icon_scott_monument);
+        
+        var popup_scott_monument = L.popup({"maxWidth": "100%"});
+        var html_scott_monument = $(`<div style="width: 100.0%; height: 100.0%;"><b>Scott Monument</b><br>A landmark dedicated to Sir Walter Scott, symbolizing Edinburgh’s literary history.</div>`)[0];
+        popup_scott_monument.setContent(html_scott_monument);
+        marker_scott_monument.bindPopup(popup_scott_monument);
+    
+        var marker_george_street = L.marker(
+            [55.9526, -3.2007],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_george_street = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_george_street.setIcon(icon_george_street);
+        
+        var popup_george_street = L.popup({"maxWidth": "100%"});
+        var html_george_street = $(`<div style="width: 100.0%; height: 100.0%;"><b>George Street</b><br>A central street in New Town, showcasing Georgian architecture.</div>`)[0];
+        popup_george_street.setContent(html_george_street);
+        marker_george_street.bindPopup(popup_george_street);
+    
+        var marker_silicon_glen = L.marker(
+            [56.0, -3.5],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_silicon_glen = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_silicon_glen.setIcon(icon_silicon_glen);
+        
+        var popup_silicon_glen = L.popup({"maxWidth": "100%"});
+        var html_silicon_glen = $(`<div style="width: 100.0%; height: 100.0%;"><b>Silicon Glen</b><br>Scotland’s tech hub, driving innovation in fields like AI and informatics.</div>`)[0];
+        popup_silicon_glen.setContent(html_silicon_glen);
+        marker_silicon_glen.bindPopup(popup_silicon_glen);
+    
+        var marker_firth_of_forth = L.marker(
+            [56.0, -3.0],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_firth_of_forth = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_firth_of_forth.setIcon(icon_firth_of_forth);
+        
+        var popup_firth_of_forth = L.popup({"maxWidth": "100%"});
+        var html_firth_of_forth = $(`<div style="width: 100.0%; height: 100.0%;"><b>Firth of Forth</b><br>A natural estuary north of Edinburgh, offering scenic views.</div>`)[0];
+        popup_firth_of_forth.setContent(html_firth_of_forth);
+        marker_firth_of_forth.bindPopup(popup_firth_of_forth);
+    
+        var marker_edinburgh_international_festival_venues = L.marker(
+            [55.9493, -3.1908],
+            {}
+        ).addTo(map_3cf59c1732a900f1967afa1f2ba9de1d);
+        
+        var icon_edinburgh_international_festival_venues = L.AwesomeMarkers.icon(
+            {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+        );
+        marker_edinburgh_international_festival_venues.setIcon(icon_edinburgh_international_festival_venues);
+        
+        var popup_edinburgh_international_festival_venues = L.popup({"maxWidth": "100%"});
+        var html_edinburgh_international_festival_venues = $(`<div style="width: 100.0%; height: 100.0%;"><b>Edinburgh International Festival Venues</b><br>Various venues hosting world-renowned cultural events.</div>`)[0];
+        popup_edinburgh_international_festival_venues.setContent(html_edinburgh_international_festival_venues);
+        marker_edinburgh_international_festival_venues.bindPopup(popup_edinburgh_international_festival_venues);
+    
+</script>
+</html>
